@@ -18,6 +18,7 @@
         android:onClick="rollDiceClicked"
         android:padding="60dp"
         android:text="Roll Dice"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,11 +40,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="4"
-        android:textSize="96sp"
+        android:text="3"
+        android:textSize="110sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
+        app:layout_constraintVertical_bias="0.105"
+        android:visibility="gone"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
